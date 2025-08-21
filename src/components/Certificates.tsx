@@ -2,6 +2,9 @@ import { motion, useScroll, useTransform } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { useRef, useState } from "react"
+import awsImg from "@/photos/aws.png"
+import codetantraImg from "@/photos/codetantrazoom.jpg"
+import hdlcDjangoImg from "@/photos/hdlc_django.jpg"
 
 export function Certificates() {
   const containerRef = useRef(null)
@@ -16,7 +19,7 @@ export function Certificates() {
       title: " AWS Certified Cloud Practitioner (CLF-C02)",
       issuer: "AWS",
       date: "30 June 2025",
-      image: "src/photos/aws.png",
+      image: awsImg,
       skills: ["AWS "," Cloud Computing "," IAM "," EC2 "," S3 ","Real-Time Cloud Integration"],
       gradient: "from-blue-500 to-cyan-500"
     },
@@ -24,7 +27,7 @@ export function Certificates() {
       title: "Advanced C Programming Certificate",
       issuer: "CodeTantra",
       date: "17 Feb 2024",
-      image: "src/photos/codetantrazoom.jpg",
+      image: codetantraImg,
       skills: ["C Programming", "Data Structures", "Algorithms", "Problem Solving","Pointers "," Recursion","Memory Management"],
       credentialId: "DEF789012",
       gradient: "from-purple-500 to-pink-500"
@@ -33,7 +36,7 @@ export function Certificates() {
       title: "Django course Certification",
       issuer: "HDLC",
       date: "9 Aug2024",
-      image: "src/photos/hdlc_django.jpg",
+      image: hdlcDjangoImg,
       skills: ["Django", "Python", "Web Development", "REST APIs", "Database Management"],
       credentialId: "GHI345678",
       gradient: "from-orange-500 to-yellow-500"

@@ -131,7 +131,7 @@ export function Hero() {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
                 <img
-                  src="public/coat1copy.jpg"
+                  src="/coat1copy.jpg"
                   alt="Jeffrey's Profile"
                   className="relative w-80 h-80 rounded-full object-cover border-4 border-background shadow-2xl"
                 />

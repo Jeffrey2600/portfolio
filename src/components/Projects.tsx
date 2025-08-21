@@ -4,6 +4,14 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Github, ExternalLink, Play } from "lucide-react"
 import { useRef } from "react"
+import attendanceImg from "@/photos/attendance.png"
+import attendanceVideo from "@/photos/attendance.mp4"
+import ecommerceImg from "@/photos/ecommerce.png"
+import ecommerceVideo from "@/photos/ecommerce_video.mp4"
+import kamarajImg from "@/photos/kamarajwebsite.png"
+import kamarajVideo from "@/photos/kamaraj_website_video.mp4"
+import n8nImg from "@/photos/n8n.png"
+import n8nVideo from "@/photos/n8n.mp4"
 
 export function Projects() {
   const containerRef = useRef(null)
@@ -16,41 +24,41 @@ export function Projects() {
     {
       title: "AI-Based Real-Time Face Recognition Attendance System",
       description: "A smart attendance system that uses face recognition for real-time identification and automatic logging. Built with a Python backend and a React.js frontend, it features live video recognition, recent attendance display, and a teacher dashboard for attendance management.\n",
-      image: "src/photos/attendance.png",
+      image: attendanceImg,
       tech: ["Python", "opencv", "arcface","retinaface","react", "mysql","face-recognition"],
       github: "https://github.com/jeff/stock-predictor",
       demo: "https://stock-predictor-demo.com",
-      video: "src/photos/attendance.mp4",
+      video: attendanceVideo,
       gradient: "from-blue-500 to-cyan-500"
     },
     {
       title: "E-commerce Platform Development",
       description: "Developed a comprehensive e-commerce platform for a retail company, featuring product catalog, shopping cart, payment gateway integration, and order management system to enable smooth online transactions and user experience.",
-      image: "src/photos/ecommerce.png",
+      image: ecommerceImg,
       tech: ["React.js ", "Node.js", "REST APIs", "MongoDB","Responsive Design"],
       github: "https://github.com/jeff/campus-assistant",
       demo: "https://campus-assistant-demo.com",
-      video: "src/photos/ecommerce_video.mp4",
+      video: ecommerceVideo,
       gradient: "from-purple-500 to-pink-500"
     },
     {
       title: "Climate Data Analyzer",
       description: "Built and deployed a modern, responsive college symposium website using HTML, CSS, Bootstrap, and Netlify. Integrated Google Forms for registration, leading to 200+ user signups in the first week.",
-      image: "src/photos/kamarajwebsite.png",
+      image: kamarajImg,
       tech: ["Netlify ", "Bootstrap", "GitHub ", "Google Forms Integration", "Responsive Web Design"],
       github: "https://github.com/jeff/climate-analyzer",
       demo: "https://climate-analyzer-demo.com",
-      video: "src/photos/kamaraj_website_video.mp4",
+      video: kamarajVideo,
       gradient: "from-green-500 to-emerald-500"
     },
     {
       title: "Smart Resume-Based Job Finder using n8n",
       description: "An automated workflow built with n8n that parses user resumes, extracts key skills using NLP, and matches them with real-time job listings from public APIs. The system dynamically sends matched job opportunities to the user via email — fully automated with no manual input.",
-      image: "src/photos/n8n.png",
+      image: n8nImg,
       tech: ["n8n", "Python", "NLP", "API Integration", "Email Automation"],
       github: "https://github.com/jeff/face-attendance",
       demo: "https://face-attendance-demo.com",
-      video: "src/photos/n8n.mp4",
+      video: n8nVideo,
       gradient: "from-orange-500 to-red-500"
     }
   ]
