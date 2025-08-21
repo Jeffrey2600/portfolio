@@ -1,0 +1,21 @@
+{
+  "name": "jeffs-ai-spark",
+  "short_name": "jeffs-ai-spark",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48 72x72 96x96 128x128 256x256",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/coat1copy.jpg",
+      "sizes": "180x180",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
+

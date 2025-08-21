@@ -37,13 +37,18 @@ export function Header() {
       <div className="container mx-auto px-6">
         {/* Logo and Navigation */}
         <div className="flex items-center justify-between py-4">
-          <motion.div
+          <motion.a
+            href="#"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent cursor-pointer"
+            className="flex items-center gap-2 cursor-pointer"
+            aria-label="Home"
           >
-            Jeffrey.dev
-          </motion.div>
+            {/* <img src="/favicon.ico" alt="Logo" className="w-16 h-16" /> */}
+            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Jeffrey.dev
+            </span>
+          </motion.a>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
